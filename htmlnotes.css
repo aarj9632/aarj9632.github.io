@@ -1,0 +1,395 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#heading {
+  font-family: "Rowdies", cursive;
+  font-size: 40px;
+  border: 2px solid black;
+  background-color: #242582;
+  color: #ffffff;
+  /* padding: T R B L; */
+  padding: 2px 16px;
+  padding-bottom: 7px;
+  margin-left: 39.25%;
+  /* margin-top: 5px; */
+  border-radius: 10px;
+  /* box-sizing: border-box; */
+}
+
+.container {
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 2% 0 0 0;
+}
+
+.contentlinks{
+  text-decoration: none;
+  color: white;
+}
+
+.contentlinks:hover{
+  color: #0000ff;
+}
+
+.contentlinks:active{
+  color: lime;
+}
+
+#contentmain{
+  display: flexbox;
+  background-color: #de04b0;
+  color: white;
+}
+
+.ctncls{
+  /* border: 2px solid black; */
+  display: block;
+  text-align: center;
+  margin-top: -14px;
+}
+
+#contentheading{
+  /* padding-left: 45%; */
+  /* justify-content: center; */
+  margin-top: -16px;
+}
+
+#content1{
+  margin-left: 28%;
+  /* margin-top: 10%; */
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#content2{
+  margin-left: 24%;
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#hrline1 {
+  padding-bottom: 0.5%;
+  background-color: #05386b;
+  color: #ffffff;
+}
+
+#para1 {
+  /* color: rgb(0, 0, 65); */
+  /* border-color: rgb(0, 0, 65); */
+  background-color: rgb(72, 255, 0);
+}
+
+#para2 {
+  color: white;
+  background-color: rgb(107, 0, 207);
+}
+
+#para3 {
+  background-color: rgb(0, 255, 255);
+}
+
+#para4 {
+  color: white;
+  background-color: red;
+}
+
+#para5 {
+  color: white;
+  background-color: rgb(0, 60, 255);
+}
+
+#para6 {
+  background-color: rgb(0, 255, 34);
+}
+
+#para7 {
+  background-color: yellow;
+}
+
+#para8 {
+  background-color: #ff8303;
+}
+
+#para8 ul{
+  display: inline-flex;
+}
+
+#para8 center{
+  display: inline-flex;
+  margin-left: 17rem;
+}
+
+#para9 {
+  background-color: #541684;
+  color: white;
+}
+
+#para10 {
+  color: white;
+  background-color: rgb(255, 0, 43);
+}
+
+#para11 {
+  color: #f3ca20;
+  background-color: rgb(43, 4, 4);
+  border-color: #f3ca20;
+}
+
+#para12 {
+  background-color: #00c3ff;
+}
+
+#para13 {
+  background-color: #ccff00;
+}
+
+#para14 {
+  background-color: #51ff00;
+}
+
+#para15 {
+  background-color: #7a2048;
+  color: white;
+}
+
+/* #iconlink1 {
+  margin: 0 0 0 0;
+} */
+
+#iconlink1:hover {
+  opacity: 85%;
+}
+
+#iconlink1:active {
+  opacity: 50%;
+}
+
+#iconlink2:hover {
+  opacity: 85%;
+}
+
+#iconlink2:active {
+  opacity: 50%;
+}
+
+#iconlink3:hover {
+  opacity: 85%;
+}
+
+#iconlink3:active {
+  opacity: 50%;
+}
+
+#iconlink2 {
+  margin-left: 20px;
+}
+
+#iconlink3 {
+  margin-left: 20px;
+}
+
+#others1 {
+  margin: 0 0 0 20px;
+  display: inline-block;
+}
+
+.links {
+  color: rgb(94, 255, 255);
+}
+
+.links2 {
+  color: rgb(0, 119, 255);
+}
+
+.links3 {
+  color: rgb(117, 43, 255);
+}
+
+.links:hover {
+  color: rgb(0, 219, 219);
+}
+
+.links2:hover {
+  color: rgb(0, 38, 255);
+}
+
+.links3:hover {
+  color: rgb(0, 38, 255);
+}
+
+.links:active {
+  color: rgb(217, 255, 0);
+}
+
+.links2:active {
+  color: rgb(0, 12, 80);
+}
+
+.links3:active {
+  color: rgb(0, 12, 80);
+}
+
+/* .links:visited{
+  color: rgb(0, 132, 255);
+} */
+
+#para16 {
+  background-color: #ff4500;
+}
+
+#para17 {
+  background-color: #008000;
+  color: white;
+}
+
+#para18 {
+  background-color: #0000ff;
+  color: white;
+}
+
+#para19 {
+  background-color: #ffc0cb;
+}
+
+#para20 {
+  background-color: #dfff00;
+}
+
+#para21 {
+  background-color: #8a2be2;
+  color: white;
+}
+
+#para22{
+  background-color: yellow;
+}
+
+#para23{
+  background-image: url('https://cdn.discordapp.com/attachments/726127776817479732/947394908279410699/istockphoto-1201252148-170667a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#para24{
+  
+}
+
+#bgimg{
+  opacity: 0.2;
+}
+
+#input1 {
+  margin-left: 34px;
+}
+
+#input2 {
+  margin-left: 7px;
+}
+
+#input3 {
+  margin-left: 15px;
+}
+
+#input4 {
+  margin-left: 39px;
+}
+
+/* #input5{
+} */
+
+#btn1{
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: white;
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn1:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+#btn2{
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  color: white;
+  background-color: red;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn2:hover{
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+#btn3{
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: #006eff;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn3:hover{
+  background-color: white;
+  color: #006eff;
+  border: 2px solid #006eff;
+}
+
+.formhover:hover{
+  cursor: pointer;
+}
+
+#linkbtn1{
+  text-decoration: none;
+  color: white;
+  background-color: #1DB954;
+  padding: 10px;
+  text-align: center;
+}
+
+#linkbtn1:hover , #linkbtn1:active{
+  background-color: #189142;
+}
+
+#linkbtn2{
+  text-decoration: none;
+  color: black;
+  background-color: #FF9900;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#linkbtn2:hover , #linkbtn2:active{
+  background-color: #c77700;
+}
+
+#linkbtn3{
+  text-decoration: none;
+  color: #F8E831;
+  background-color: #047BD5;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#linkbtn3:hover , #linkbtn3:active{
+  background-color: #0467b3;
+}
