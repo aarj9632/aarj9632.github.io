@@ -30,6 +30,7 @@ html{
 .contentlinks{
   text-decoration: none;
   color: white;
+<<<<<<< HEAD
   border: 2px solid white;
   border-radius: 20px;
   padding: 6px;
@@ -160,6 +161,19 @@ html{
 }
 
 #PageContents{
+=======
+}
+
+.contentlinks:hover{
+  color: #0000ff;
+}
+
+.contentlinks:active{
+  color: lime;
+}
+
+#contentmain{
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   display: flexbox;
   background-color: #de04b0;
   color: white;
@@ -179,7 +193,11 @@ html{
 }
 
 #content1{
+<<<<<<< HEAD
   margin-left: 22%;
+=======
+  margin-left: 28%;
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   /* margin-top: 10%; */
   /* border: 2px solid black; */
   display: inline-block;
@@ -187,6 +205,7 @@ html{
 }
 
 #content2{
+<<<<<<< HEAD
   margin-left: 2%;
   /* border: 2px solid black; */
   display: inline-block;
@@ -202,12 +221,19 @@ html{
 
 #content4{
   margin-left: 2%;
+=======
+  margin-left: 24%;
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   /* border: 2px solid black; */
   display: inline-block;
   /* display: none; */
 }
 
+<<<<<<< HEAD
 #HorizontalLines-1 {
+=======
+#hrline1 {
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   padding-bottom: 0.5%;
   background-color: #05386b;
   color: #ffffff;
@@ -242,7 +268,11 @@ html{
   background-color: rgb(0, 255, 34);
 }
 
+<<<<<<< HEAD
 #PreserveTag {
+=======
+#para7 {
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   background-color: yellow;
 }
 
@@ -250,16 +280,28 @@ html{
   background-color: #ff8303;
 }
 
+<<<<<<< HEAD
 #CenterAlignment ul{
   display: inline-flex;
 }
 
 #CenterAlignment center{
+=======
+#para8 ul{
+  display: inline-flex;
+}
+
+#para8 center{
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   display: inline-flex;
   margin-left: 17rem;
 }
 
+<<<<<<< HEAD
 #HorizontalLines-2 {
+=======
+#para9 {
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
   background-color: #541684;
   color: white;
 }
@@ -400,6 +442,7 @@ html{
   color: white;
 }
 
+<<<<<<< HEAD
 #Bookmarks{
   background-color: yellow;
 }
@@ -414,6 +457,24 @@ html{
 #IframeTag{
   background-color: #0645ad;
   color: white;
+=======
+#para22{
+  background-color: yellow;
+}
+
+#para23{
+  background-image: url('https://cdn.discordapp.com/attachments/726127776817479732/947394908279410699/istockphoto-1201252148-170667a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#para24{
+  
+}
+
+#bgimg{
+  opacity: 0.2;
+>>>>>>> e6252f546a2c15bc201f810a95c65fb36d37ee96
 }
 
 #input1 {
