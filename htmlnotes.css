@@ -2,6 +2,10 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 #heading {
   font-family: "Rowdies", cursive;
   font-size: 40px;
@@ -11,86 +15,279 @@ body {
   /* padding: T R B L; */
   padding: 2px 16px;
   padding-bottom: 7px;
-  margin-left: 41%;
+  margin-left: 39.25%;
+  /* margin-top: 5px; */
+  border-radius: 10px;
   /* box-sizing: border-box; */
 }
 
 .container {
+  border-radius: 10px;
   border: 2px solid black;
   margin: 2% 0 0 0;
 }
 
-#hrline1 {
+.contentlinks{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+#link1{
+  padding: 6px 25px;
+}
+
+#link2{
+  padding: 6px 22px;
+}
+
+#link3{
+  padding: 6px 33px;
+}
+
+#link4{
+  padding: 6px 21px;
+}
+
+#link5{
+  padding: 6px 21px;
+}
+
+/* #link6{
+  padding: 6px 20px;
+} */
+
+/* #link7{
+  padding: 6px 20px;
+} */
+
+#link8{
+  padding: 6px 31px;
+}
+
+#link9{
+  padding: 6px 26px;
+}
+
+#link10{
+  padding: 6px 13px;
+}
+
+#link11{
+  padding: 6px 43px;
+}
+
+#link12{
+  padding: 6px 12px;
+}
+
+#link13{
+  padding: 6px 25px;
+}
+
+#link14{
+  padding: 6px 18px;
+}
+
+#link15{
+  padding: 6px 36px;
+}
+
+#link16{
+  padding: 6px 36px;
+}
+
+#link17{
+  padding: 6px 49px;
+}
+
+#link18{
+  padding: 6px 21px;
+}
+
+#link19{
+  padding: 6px 38px;
+}
+
+#link20{
+  padding: 6px 44px;
+}
+
+#link21{
+  padding: 6px 12px;
+}
+
+#link22{
+  padding: 6px 22px;
+}
+
+#link23{
+  padding: 6px 20px;
+}
+
+#link24{
+  padding: 6px 31px;
+}
+
+#content1 li{
+  padding: 12px 0;
+}
+
+#content2 li{
+  padding: 12px 0;
+}
+
+#content3 li{
+  padding: 12px 0;
+}
+
+#content4 li{
+  padding: 12px 0;
+}
+
+.contentlinks:hover{
+  color: rgb(174, 0, 255);
+  background-color: white;
+  border-color: rgb(174, 0, 255);
+}
+
+.contentlinks:active{
+  color: white;
+  background-color: rgb(174, 0, 255);
+  border-color: white;
+}
+
+#PageContents{
+  display: flexbox;
+  background-color: #de04b0;
+  color: white;
+}
+
+.ctncls{
+  /* border: 2px solid black; */
+  display: block;
+  text-align: center;
+  margin-top: -14px;
+}
+
+#contentheading{
+  /* padding-left: 45%; */
+  /* justify-content: center; */
+  margin-top: -16px;
+}
+
+#content1{
+  margin-left: 22%;
+  /* margin-top: 10%; */
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#content2{
+  margin-left: 2%;
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#content3{
+  margin-left: 2%;
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#content4{
+  margin-left: 2%;
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* display: none; */
+}
+
+#HorizontalLines-1 {
   padding-bottom: 0.5%;
   background-color: #05386b;
   color: #ffffff;
 }
 
-#para1 {
+#Introduction {
   /* color: rgb(0, 0, 65); */
   /* border-color: rgb(0, 0, 65); */
   background-color: rgb(72, 255, 0);
 }
 
-#para2 {
+#HeadingTags {
   color: white;
   background-color: rgb(107, 0, 207);
 }
 
-#para3 {
+#FontTags {
   background-color: rgb(0, 255, 255);
 }
 
-#para4 {
+#BasicTags-1 {
   color: white;
   background-color: red;
 }
 
-#para5 {
+#BasicTags-2 {
   color: white;
   background-color: rgb(0, 60, 255);
 }
 
-#para6 {
+#LineBreak {
   background-color: rgb(0, 255, 34);
 }
-#para7 {
+
+#PreserveTag {
   background-color: yellow;
 }
 
-#para8 {
+#CenterAlignment {
   background-color: #ff8303;
 }
 
-#para9 {
+#CenterAlignment ul{
+  display: inline-flex;
+}
+
+#CenterAlignment center{
+  display: inline-flex;
+  margin-left: 17rem;
+}
+
+#HorizontalLines-2 {
   background-color: #541684;
   color: white;
 }
 
-#para10 {
+#Images {
   color: white;
   background-color: rgb(255, 0, 43);
 }
 
-#para11 {
+#OrderedLists {
   color: #f3ca20;
   background-color: rgb(43, 4, 4);
   border-color: #f3ca20;
 }
 
-#para12 {
+#UnorderedLists {
   background-color: #00c3ff;
 }
 
-#para13 {
+#Tables-1 {
   background-color: #ccff00;
 }
 
-#para14 {
+#Tables-2 {
   background-color: #51ff00;
 }
 
-#para15 {
+#Links {
   background-color: #7a2048;
   color: white;
 }
@@ -144,11 +341,19 @@ body {
   color: rgb(0, 119, 255);
 }
 
+.links3 {
+  color: rgb(117, 43, 255);
+}
+
 .links:hover {
   color: rgb(0, 219, 219);
 }
 
 .links2:hover {
+  color: rgb(0, 38, 255);
+}
+
+.links3:hover {
   color: rgb(0, 38, 255);
 }
 
@@ -160,34 +365,54 @@ body {
   color: rgb(0, 12, 80);
 }
 
+.links3:active {
+  color: rgb(0, 12, 80);
+}
+
 /* .links:visited{
   color: rgb(0, 132, 255);
 } */
 
-#para16 {
+#ContainerTags {
   background-color: #ff4500;
 }
 
-#para17 {
+#Address {
   background-color: #008000;
   color: white;
 }
 
-#para18 {
+#Forms {
   background-color: #0000ff;
   color: white;
 }
 
-#para19 {
+#GlobalAttributes {
   background-color: #ffc0cb;
 }
 
-#para20 {
+#HTML-Entities {
   background-color: #dfff00;
 }
 
-#para21 {
+#SemanticTags {
   background-color: #8a2be2;
+  color: white;
+}
+
+#Bookmarks{
+  background-color: yellow;
+}
+
+#BackgroundImage{
+  background-image: url('https://cdn.discordapp.com/attachments/726127776817479732/947394908279410699/istockphoto-1201252148-170667a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.2; */
+}
+
+#IframeTag{
+  background-color: #0645ad;
   color: white;
 }
 
@@ -209,6 +434,54 @@ body {
 
 /* #input5{
 } */
+
+#btn1{
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: white;
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn1:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+#btn2{
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  color: white;
+  background-color: red;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn2:hover{
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+#btn3{
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: #006eff;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+#btn3:hover{
+  background-color: white;
+  color: #006eff;
+  border: 2px solid #006eff;
+}
 
 .formhover:hover{
   cursor: pointer;
