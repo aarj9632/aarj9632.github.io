@@ -1344,7 +1344,7 @@ audio:hover{
   outline: 3.7px solid black;
 }
 
-.csslinks{
+.csswebreslinks{
   text-decoration: none;
   border: 2px solid white;
   border-radius: 25px;
@@ -1356,14 +1356,14 @@ audio:hover{
   transition: 0.1s;
 }
 
-.csslinks:hover{
+.csswebreslinks:hover{
   outline: 2.3px solid black;
   border: 2px solid #8d39fa;
   color: #8d39fa;
   background-color: white;
 }
 
-.csslinks:active{
+.csswebreslinks:active{
   outline: 2.3px solid black;
   border: 2px solid white;
   color: white;
@@ -1387,6 +1387,7 @@ audio:hover{
   color: white;
   background-color: red;
   margin-left: 3px;
+  margin-right: 5px;
   transition: 0.1s;
 }
 
@@ -1407,6 +1408,35 @@ audio:hover{
 
 #CSS p {
   display: inline;
+}
+
+.cssandroidreslinks {
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  outline: 2.2px solid black;
+  padding: 3px 11px;
+  transition: 0.1s;
+  margin: 0 5px 0 3px;
+  color: white;
+  background-color: #06005f;
+}
+
+.cssandroidreslinks:hover {
+  border: 2px solid #06005f;
+  color: #06005f;
+  background-color: white;
+}
+
+.cssandroidreslinks:active {
+  outline: 2.2px solid black;
+  background-color: #1100ff;
+  color: white;
+  border: 2px solid white;
+}
+
+#CSS li:nth-child(12) {
+  margin-top: 8px;
 }
 
 @media only screen and (max-width:600px) {
