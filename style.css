@@ -1378,6 +1378,10 @@ audio:hover{
   padding: 7px 19px;
 }
 
+#csssololink {
+  padding: 7px 23px;
+}
+
 .cssvidreslinks{
   border-radius: 5px;
   padding: 3px 9px;
@@ -1402,8 +1406,12 @@ audio:hover{
   border-color: red;
 }
 
-#CSS li:nth-child(9) {
+#CSS li:nth-child(10) {
   margin-top: 20px;
+}
+
+#CSS li:nth-child(7) {
+  margin-top: 29px;
 }
 
 #CSS p {
@@ -1435,7 +1443,7 @@ audio:hover{
   border: 2px solid white;
 }
 
-#CSS li:nth-child(12) {
+#CSS li:nth-child(13) {
   margin-top: 8px;
 }
 
