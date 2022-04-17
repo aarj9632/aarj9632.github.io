@@ -1,0 +1,53 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+    background-color: #272822;
+    font-size: larger;
+    color: white;
+    overflow: auto;
+    /* height: 45.5rem; */
+    animation: div-height 3s infinite;
+    border: 5px solid white;
+    outline: 6px solid #272822;
+}
+
+code {
+    padding-right: 45em;
+}
+
+.tag {
+    color: #f92672;
+}
+
+.attr {
+    color: #a6e22e;
+}
+
+.attr-value {
+    color: #e6db74;
+}
+
+.comment {
+    color: #aabed3;
+}
+
+.css-selector {
+    color: orange;
+}
+
+.css-properties {
+    color: rgb(163, 255, 255);
+}
+
+/* @keyframes div-height {
+    50% {height: 50rem;}
+} */
+
+.restriction {
+    color: rgb(255, 101, 101);
+}
