@@ -66,25 +66,21 @@
       
             document.onkeydown = function (e) {
       
-                // disable F12 key
                 if(e.keyCode == 123) {
                     alert("F12 (Inspection) is disabled.")
                     return false;
                 }
       
-                // disable I key
                 if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
                     alert("Ctrl + Shift + I (Inspection) is disabled.")
                     return false;
                 }
       
-                // disable J key
                 if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
                     alert("Ctrl + Shift + J (Console) is disabled.")
                     return false;
                 }
       
-                // disable U key
                 if(e.ctrlKey && e.keyCode == 85) {
                     alert("Ctrl + U (View Page Source) is disabled.")
                     return false;

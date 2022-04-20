@@ -164,9 +164,9 @@ html{
   padding: 6px 36px;
 }
 
-/* #link29{
-  padding: 6px 20px;
-} */
+#link29{
+  padding: 6px 26px;
+}
 
 /* #link30{
   padding: 6px 20px;
@@ -1471,6 +1471,177 @@ audio:hover{
   #JavaScript ul {
     max-width: 85%;
   }
+}
+
+/* -----Source Codes----- */
+
+#Source-Codes {
+  border: 3.5px solid rgb(0, 80, 80);
+  outline: 3.7px solid black;
+  background-color: teal;
+  color: white;
+}
+
+#Source-Codes h2, p {
+  margin: 10px 0 10px 0;
+}
+
+#Source-Codes div:nth-child(1) {
+  text-align: center;
+}
+#Source-Codes>div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#source1{
+  padding: 6px 38px;
+}
+
+#source2{
+  padding: 6px 20px;
+}
+
+#source3{
+  padding: 6px 26px;
+}
+
+#source4{
+  padding: 6px 23px;
+}
+
+#source5{
+  padding: 6px 34px;
+}
+
+#source6{
+  padding: 6px 31px;
+}
+
+#source7{
+  padding: 6px 31px;
+}
+
+#source8{
+  padding: 6px 16px;
+}
+
+#source9{
+  padding: 6px 25px;
+}
+
+#source10{
+  padding: 6px 12px;
+}
+
+#source11{
+  padding: 6px 42px;
+}
+
+#source12{
+  padding: 6px 24px;
+}
+
+#source13{
+  padding: 6px 19px;
+}
+
+#source14{
+  padding: 6px 11px;
+}
+
+#source15{
+  padding: 6px 38px;
+}
+
+#source16{
+  padding: 6px 38px;
+}
+
+#source17{
+  padding: 6px 51px;
+}
+
+#source18{
+  padding: 6px 23px;
+}
+
+#source19{
+  padding: 6px 41px;
+}
+
+#source20{
+  padding: 6px 47px;
+}
+
+#source21{
+  padding: 6px 15px;
+}
+
+#source22{
+  padding: 6px 25px;
+}
+
+#source23{
+  padding: 6px 28px;
+}
+
+#source24{
+  padding: 6px 23px;
+}
+
+#source25{
+  padding: 6px 30px;
+}
+
+#source26{
+  padding: 6px 31px;
+}
+
+#source27{
+  padding: 6px 24px;
+}
+
+#source28{
+  padding: 6px 45px;
+}
+
+#source29{
+  padding: 6px 51px;
+}
+
+#source30{
+  padding: 6px 33px;
+}
+
+/* #link30{
+  padding: 6px 20px;
+} */
+
+.sourcelinks{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  outline: 2.2px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  transition: 0.1s;
+}
+
+.sourcelinks:hover{
+  color: teal;
+  background-color: white;
+  border-color: teal;
+  /* border-radius: 20px; */
+}
+
+.sourcelinks:active{
+  color: black;
+  background-color: rgb(0, 189, 189);
+  border-color: white;
+  /* border-radius: 20px; */
+  /* transform: scale(0.9, 0.9); */
 }
 
 /* -----Footer------ */
