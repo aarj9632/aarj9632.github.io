@@ -212,7 +212,7 @@ html{
   color: white;
   background-color: rgb(174, 0, 255);
   border-color: white;
-  /* transform: scale(0.9, 0.9); */
+  transform: scale(0.9);
 }
 
 #PageContents{
@@ -1094,7 +1094,7 @@ input[value~="Now"]:hover {
 /* -----Background Image----- */
 
 #BackgroundImage{
-  background-image: url('https://cdn.discordapp.com/attachments/726127776817479732/947394908279410699/istockphoto-1201252148-170667a.jpg');
+  background-image: url('/Items/Images/istockphoto-1201252148-170667a.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.2; */
