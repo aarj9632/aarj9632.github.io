@@ -1,7 +1,7 @@
-// document.oncontextmenu = function right_click() {
-//     alert("Right Click is disabled, Press F12 to inspect.")
-//     return false;
-// }
+document.oncontextmenu = function right_click() {
+    alert("Right Click is disabled, Press F12 to inspect.")
+    return false;
+}
 
 document.onkeydown = function (e) {
 
