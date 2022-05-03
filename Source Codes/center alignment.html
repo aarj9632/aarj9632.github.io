@@ -5,17 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sources-style.css">
-    <link rel="shortcut icon" href="/Source Codes/Icons/coding.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Items/Icons/coding.png" type="image/x-icon">
     <title>Center Alignment Source Code</title>
 </head>
-<style>
-    .container {
-    height: 46rem;
-    }
-</style>
+
 <body>
     <div class="container">
-        
+        <pre>
+            <code>
+                <span class="restriction">&lt;!----- *****Copying, Selection and Right Click functions are restricted - Only for Educational Purposes***** -----&gt;</span>
+                                <span class="restriction">&lt;!----- So, Read, Analyze, Understand and then go & start coding. -----&gt;</span>
+
+                <span class="comment">&lt;!----- Center Alignment - Source Code -----&gt;</span>
+
+                &lt;<span class="tag">section</span>>
+                    &lt;<span class="tag">div</span> class="container" id="CenterAlignment">
+                      &lt;<span class="tag">div</span>>
+                        &lt;<span class="tag">ul</span>>
+                          &lt;<span class="tag">li</span> type="square">
+                            &lt;<span class="tag">h2</span>>&lt;<span class="tag">u</span>>Center Alignment&lt;<span class="tag">/u</span>> :&lt;<span class="tag">/h2</span>>
+                          &lt;<span class="tag">/li</span>>
+                        &lt;<span class="tag">/ul</span>>
+                      &lt;<span class="tag">/div</span>>
+                      &lt;<span class="tag">div</span>>
+                        &lt;<span class="tag">ul</span>>
+                          &lt;<span class="tag">li</span>>
+                            &lt;<span class="tag">center</span>>Now to align the line in center like this, use the tag &lt;<span class="tag">strong</span>>" center "&lt;<span class="tag">/strong</span>>.&lt;<span class="tag">/center</span>>
+                          &lt;<span class="tag">/li</span>>
+                        &lt;<span class="tag">/ul</span>>
+                      &lt;<span class="tag">/div</span>>
+                    &lt;<span class="tag">/div</span>>
+                  &lt;<span class="tag">/section</span>>
+            </code>
+            <code>
+                <span class="comment">&lt;!----- Center Alignment - CSS Source Code -----&gt;</span>
+
+                #<span class="css-selector">CenterAlignment</span> {
+                    <span class="attr">background-color</span>: <span class="css-properties">#ff8303</span>;
+                    <span class="attr">border</span>: <span class="css-properties">3.5px solid #8a4500</span>;
+                    <span class="attr">outline</span>: <span class="css-properties">3.7px solid black</span>;
+                  }
+                  
+                  #<span class="css-selector">CenterAlignment div</span>{
+                    <span class="attr">display</span>: <span class="css-properties">flex</span>;
+                    <span class="attr">justify-content</span>: <span class="css-properties">center</span>;
+                  }
+                  
+                  #<span class="css-selector">CenterAlignment ul</span>{
+                    <span class="attr">margin</span>: <span class="css-properties">0</span>;
+                  }
+                  
+                  #<span class="css-selector">CenterAlignment center</span>{
+                    <span class="attr">margin-bottom</span>: <span class="css-properties">1rem</span>;
+                  }
+            </code>
+        </pre>
     </div>
+    <script>
+        document.oncontextmenu = new Function("return false");
+  
+        document.onkeydown = function (e) {
+  
+            if(e.keyCode == 123) {
+                alert("F12 (Inspection) is disabled.")
+                return false;
+            }
+  
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+                alert("Ctrl + Shift + I (Inspection) is disabled.")
+                return false;
+            }
+  
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                alert("Ctrl + Shift + J (Console) is disabled.")
+                return false;
+            }
+  
+            if(e.ctrlKey && e.keyCode == 85) {
+                alert("Ctrl + U (View Page Source) is disabled.")
+                return false;
+            }
+        }
+    </script>
 </body>
 </html>
