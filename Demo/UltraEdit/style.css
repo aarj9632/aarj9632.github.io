@@ -11,7 +11,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hover{
+.hover {
     cursor: pointer;
 }
 
@@ -52,7 +52,7 @@ main div first-child {
 
 }
 
-.box1{
+.box1 {
     margin-top: 50px;
 }
 
@@ -66,9 +66,9 @@ main div first-child {
     padding: 0px 200px;
 }
 
-.bluebtn:hover{
+.bluebtn:hover {
     background-color: #009cb4;
-    transition: background-color 0.5s;
+    transition: 0.5s;
 }
 
 .box3 p {
@@ -123,11 +123,11 @@ main div first-child {
     margin-bottom: 0px;
 }
 
-.bb1 h2{
+.bb1 h2 {
     margin-bottom: 55px;
 }
 
-.bb p{
+.bb p {
     margin: 15px 0px 25px 0px;
     font-size: 12px;
 }
@@ -141,35 +141,35 @@ main div first-child {
     cursor: pointer;
 }
 
-.downloadbtn:hover{
+.downloadbtn:hover {
     background-color: #57aa57;
     transition: background-color 0.5s;
 }
 
-.sha{
+.sha {
     margin-top: 25px;
     font-size: 10px;
 }
 
-.shacode{
+.shacode {
     font-size: 8px;
 }
 
-.container1{
+.container1 {
     background-color: #222;
     color: white;
     /* margin: 0; */
     margin-top: 50px;
 }
 
-.cc1{
+.cc1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
 }
 
-.cc2{
+.cc2 {
     background-color: white;
     color: #222;
     padding: 50px;
@@ -178,16 +178,16 @@ main div first-child {
     text-align: center;
 }
 
-.cc2 p{
+.cc2 p {
     color: #00b6d1;
     font-size: 25px;
 }
 
-.label{
+.label {
     margin-bottom: 5px;
 }
 
-.cc2 input{
+.cc2 input {
     height: 50px;
     width: 100%;
     border-radius: 5px;
@@ -198,7 +198,7 @@ main div first-child {
     border: 1px solid #222;
 }
 
-.btnsignup{
+.btnsignup {
     background-color: #00b6d1;
     color: white;
     border-radius: 5px;
@@ -206,11 +206,11 @@ main div first-child {
     padding: 15px;
 }
 
-.cc3{
+.cc3 {
     padding: 50px 0px 24px 60px;
 }
 
-.head{
+.head {
     font-size: 1.5em;
 }
 
@@ -221,4 +221,88 @@ main div first-child {
 .ccc {
     text-align: center;
     /* padding: 0px 1000px; */
+}
+
+.lastcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* width: 90%; */
+}
+
+.lc {
+    width: 200px;
+}
+
+.lc p {
+    margin: 0;
+}
+
+.lc-p {
+    color: #222;
+    font-size: 14px;
+}
+
+.lc-p:hover {
+    color: #454545;
+    transition: color 0.5s;
+}
+
+.lc2 p {
+    margin-bottom: 10px;
+}
+
+.lc5 {
+    box-sizing: border-box;
+}
+
+.lc5 input {
+    padding: 10px 16px;
+    border: 1px solid #22242626;
+    border-radius: 7px;
+    transition: box-shadow .15s ease-in-out;
+    color: #4e4e4e;
+    margin-top: 10px;
+}
+
+.lc5 input:focus {
+    box-shadow: 0 0 0 3px #00b6d1;
+
+}
+
+.subbtn {
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    background-color: #00b6d1;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footcc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footcc img{
+    width: 175px;
+}
+
+.footcc svg{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.rights{
+    margin-left: 13.8em;
+    margin-bottom: 50px;
+}
+
+.rights p{
+    margin: 0;
+    color: #222;
+    font-size: 12px;
 }
