@@ -33,6 +33,11 @@ nav {
     align-items: center;
 }
 
+.right span:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
 nav ul li {
     list-style: none;
 }
@@ -220,6 +225,7 @@ main div first-child {
 
 .ccc {
     text-align: center;
+    width: 35%;
     /* padding: 0px 1000px; */
 }
 
@@ -305,4 +311,10 @@ main div first-child {
     margin: 0;
     color: #222;
     font-size: 12px;
+}
+
+.fsvg:hover {
+    width: 35px;
+    transition: 0.3s;
+    opacity: 0.7;
 }
