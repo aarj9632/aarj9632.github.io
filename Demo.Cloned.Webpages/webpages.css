@@ -11,6 +11,7 @@
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .btn{
@@ -22,6 +23,7 @@
     font-weight: bold;
     font-size: 30px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 a, a:visited, a:hover, a:active {
@@ -29,42 +31,22 @@ a, a:visited, a:hover, a:active {
 }
 
 .btn1{
-    border: 5px solid aqua;
+    border: 5px solid black;
     background-color: aqua;
-    outline: 5px solid black;
+    outline: 5px solid aqua;
     padding: 10px 20px;
     
 }
 .btn1:hover{
-    border: 5px solid white;
+    border: 5px solid black;
     color: white;
     background-color: #002fff;
-    outline: 5px solid black;
+    outline: 5px solid white;
     scale: 0.9;
 }
 .btn1:active{
     border: 5px solid #002fff;
     color: #002fff;
     background-color: white;
-    outline: 5px solid black;
-}
-
-.btn2{
-    border: 5px solid #ff00ff;
-    background-color: #ff00ff;
-    outline: 5px solid black;
-    padding: 10px 43.5px;
-}
-.btn2:hover{
-    border: 5px solid white;
-    color: white;
-    background-color: #ae00ff;
-    outline: 5px solid black;
-    scale: 0.9;
-}
-.btn2:active{
-    border: 5px solid #ae00ff;
-    color: #ae00ff;
-    background-color: white;
-    outline: 5px solid black;
+    outline: 5px solid white;
 }

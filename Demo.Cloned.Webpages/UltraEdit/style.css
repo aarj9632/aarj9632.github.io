@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 .logo img {
     width: 150px;
@@ -21,6 +21,7 @@ nav {
     justify-content: space-around;
     color: #222;
     font-weight: 400;
+    margin: 20px 0 0 0;
 }
 
 .right ul {
@@ -58,7 +59,11 @@ main div first-child {
 }
 
 .box1 {
-    margin-top: 50px;
+    margin: 90px 0 40px 0;
+}
+
+.box2{
+    margin-bottom: 30px;
 }
 
 .mainbody h1 {
@@ -87,8 +92,9 @@ main div first-child {
 .box4 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    /* justify-content: center; */
+    margin: 50px 0 50px 140px;
+    max-width: 80vw;
 }
 
 .box4 h2 {
@@ -111,16 +117,14 @@ main div first-child {
     justify-content: space-around;
     gap: 25px;
     margin-top: 50px;
+    max-width: 80vw;
+    margin: auto;
 }
 
 .bb {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     text-align: center;
     background-color: #f9f9f9;
-    width: 400px;
-    /* height: auto; */
+    width: 330px;
     padding: 0px 0px 30px 0px;
 }
 
@@ -163,8 +167,11 @@ main div first-child {
 .container1 {
     background-color: #222;
     color: white;
-    /* margin: 0; */
     margin-top: 50px;
+    padding: 40px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .cc1 {
@@ -172,6 +179,8 @@ main div first-child {
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
+    max-width: 70vw;
+    margin: auto;
 }
 
 .cc2 {
@@ -212,7 +221,11 @@ main div first-child {
 }
 
 .cc3 {
-    padding: 50px 0px 24px 60px;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .head {
@@ -225,19 +238,32 @@ main div first-child {
 
 .ccc {
     text-align: center;
-    width: 35%;
-    /* padding: 0px 1000px; */
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .lastcontainer {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-    /* width: 90%; */
+    margin: auto;
+    max-width: 85vw;
+    padding-top: 50px;
 }
 
 .lc {
-    width: 200px;
+    width: 202px;
+}
+
+.lc1,.lc3,.lc4 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.lc h4{
+    margin-bottom: 20px;
 }
 
 .lc p {
