@@ -28,6 +28,7 @@
 
 a, a:visited, a:hover, a:active {
     color: inherit;
+    text-decoration: none;
 }
 
 .btn1{
@@ -69,4 +70,11 @@ a, a:visited, a:hover, a:active {
     color: #ae00ff;
     background-color: white;
     outline: 5px solid white;
+}
+
+@media screen and (max-width:550px) {
+    .btn{
+        margin: 10px 25px;
+        text-align: center;
+    }
 }

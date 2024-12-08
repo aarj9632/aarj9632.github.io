@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,7 @@ nav {
     align-items: center;
 }
 
-.right span:hover{
+.right span:hover {
     opacity: 0.7;
     transition: 0.3s;
 }
@@ -55,14 +55,15 @@ nav ul li {
 
 main div first-child {
     margin-top: 35px;
-
 }
 
 .box1 {
     margin: 90px 0 40px 0;
+    display: flex;
+    align-items: baseline;
 }
 
-.box2{
+.box2 {
     margin-bottom: 30px;
 }
 
@@ -72,8 +73,9 @@ main div first-child {
 }
 
 .mainbody h2 {
+    max-width: 60vw;
     font-weight: normal;
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
 }
 
 .bluebtn:hover {
@@ -93,18 +95,23 @@ main div first-child {
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    margin: 50px 0 50px 140px;
-    max-width: 80vw;
+    margin: auto;
+    max-width: 60vw;
+    padding: 50px 0 0 0;
 }
 
 .box4 h2 {
-    margin-left: 20px;
     font-weight: normal;
     font-size: 1.3em;
 }
 
+.box4 span {
+    margin: 0 0 50px 0;
+}
+
 .box4 img {
     width: 50px;
+    margin-right: 20px;
 }
 
 .box4 span:nth-child(3) {
@@ -117,7 +124,7 @@ main div first-child {
     justify-content: space-around;
     gap: 25px;
     margin-top: 50px;
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
 }
 
@@ -188,7 +195,9 @@ main div first-child {
     color: #222;
     padding: 50px;
     border-radius: 10px;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
 }
 
@@ -250,19 +259,22 @@ main div first-child {
     margin: auto;
     max-width: 85vw;
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 
 .lc {
     width: 202px;
 }
 
-.lc1,.lc3,.lc4 {
+.lc1,
+.lc3,
+.lc4 {
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
 
-.lc h4{
+.lc h4 {
     margin-bottom: 20px;
 }
 
@@ -295,6 +307,7 @@ main div first-child {
     transition: box-shadow .15s ease-in-out;
     color: #4e4e4e;
     margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .lc5 input:focus {
@@ -310,6 +323,7 @@ main div first-child {
     border-radius: 7px;
     font-weight: bold;
     margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .footcc {
@@ -319,22 +333,22 @@ main div first-child {
     margin-top: 40px;
 }
 
-.footcc img{
+.footcc img {
     width: 175px;
 }
 
-.footcc svg{
+.footcc svg {
     width: 30px;
     margin-right: 10px;
 }
 
-.rights{
-    margin-left: 13.8em;
-    margin-bottom: 50px;
+.rights {
+    margin: auto;
+    max-width: 63vw;
 }
 
-.rights p{
-    margin: 0;
+.rights p {
+    padding-bottom: 50px;
     color: #222;
     font-size: 12px;
 }
