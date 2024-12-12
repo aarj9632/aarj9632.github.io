@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+::selection {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -11,7 +15,8 @@
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: black;
+    /* background-color: #1a2135; */
+    background: linear-gradient(180deg, #24243e 0%, #302b63 50%, #24243e 100%);
 }
 
 .btn {
@@ -38,7 +43,7 @@ a:active {
     border: 5px solid black;
     background-color: aqua;
     outline: 5px solid aqua;
-    padding: 10px 20px;
+    padding: 10px 85px;
 
 }
 
