@@ -19,6 +19,16 @@
     background: linear-gradient(180deg, #24243e 0%, #302b63 50%, #24243e 100%);
 }
 
+@keyframes slide-in {
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 .btn {
     box-sizing: border-box;
     border-radius: 50px;
@@ -29,6 +39,7 @@
     font-size: 30px;
     transition: 0.3s;
     cursor: pointer;
+    animation: 0.5s cubic-bezier(0, 1.21, 0.58, 1) slide-in;
 }
 
 a,

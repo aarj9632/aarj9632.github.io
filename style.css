@@ -21,7 +21,7 @@
 
 @keyframes slide-in {
     from {
-        transform: translateX(100%);
+        transform: translateX(100vw);
     }
 
     to {
@@ -39,7 +39,6 @@
     font-size: 30px;
     transition: 0.3s;
     cursor: pointer;
-    animation: 0.5s var(slide-in) 1s;
     animation: 0.5s cubic-bezier(0, 1.21, 0.58, 1) slide-in;
 }
 
