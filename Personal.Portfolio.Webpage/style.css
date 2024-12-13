@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: "Urbanist", serif; */
+    scroll-behavior: smooth;
+    color: white;
+}
+
+.background {
+    background: linear-gradient(180deg, #24243e 0%, #302b63 50%, #24243e 100%);
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+}
+
+:root {
+    --prim-color: black;
+    --pacifico: "Pacifico", serif;
+    --kaushan: "Kaushan Script", serif;
+    --urbanist: "Urbanist", serif;
+}
+
+::selection {
+    background-color: rgba(83, 83, 83, 0.4);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding: 25px 0 0 0;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: var(--kaushan) !important;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.logo a {
+    color: yellowgreen;
+}
+
+.social-media img {
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+}
+
+.cc1 {
+    font-family: var(--urbanist);
+}
+
+.cc2 {
+    font-family: var(--pacifico);
+}
+
+.cc3 {
+    font-family: var(--urbanist);
+}
+
+.cc4 {
+    font-family: var(--urbanist);
+}
+
+.cc5 {
+    font-family: var(--urbanist);
+}
