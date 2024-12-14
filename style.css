@@ -54,8 +54,8 @@ a:active {
     border: 5px solid black;
     background-color: aqua;
     outline: 5px solid aqua;
-    padding: 10px 20px;
-
+    padding: 10px 95px;
+    
 }
 
 .btn1:hover {
@@ -75,9 +75,9 @@ a:active {
 
 .btn2 {
     border: 5px solid black;
-    background-color: #ff00ff;
-    outline: 5px solid #ff00ff;
-    padding: 10px 43.5px;
+    background-color: #ff2cff;
+    outline: 5px solid #ff2cff;
+    padding: 10px 20px;
 }
 
 .btn2:hover {
@@ -99,20 +99,20 @@ a:active {
     border: 5px solid black;
     background-color: #aaff00;
     outline: 5px solid #aaff00;
-    padding: 10px 95px;
+    padding: 10px 43.5px;
 }
 
 .btn3:hover {
     border: 5px solid black;
     color: white;
-    background-color: #0da000;
+    background-color: darkgreen;
     outline: 5px solid white;
     scale: 0.9;
 }
 
 .btn3:active {
-    border: 5px solid #ae00ff;
-    color: #ae00ff;
+    border: 5px solid darkgreen;
+    color: darkgreen;
     background-color: white;
     outline: 5px solid white;
 }
