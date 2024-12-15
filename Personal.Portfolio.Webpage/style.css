@@ -1,3 +1,6 @@
+
+/* Universal */
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -38,12 +41,15 @@ a:active {
     text-decoration: none;
 }
 
+/* Navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
     width: 80vw;
     margin: auto;
     padding: 25px 0 0 0;
+    animation: navbar 0.5s;
 }
 
 .logo {
@@ -55,6 +61,15 @@ nav {
     font-size: 3rem;
     font-weight: 500;
     gap: 10px;
+    position: relative;
+}
+
+.logo img{
+    background-color: var(--prim-color);
+    padding: 5px;
+    border-radius: 50px;
+    position: relative;
+    top: 10%;
 }
 
 .logo a {
@@ -63,11 +78,31 @@ nav {
 
 .social-media img {
     width: 50px;
+    transition: 0.5s;
 }
 
-/* #x {
-    background-color: white;
-} */
+.social-media img:hover{
+    opacity: 0.5;
+    transform: translate(0, -10%);
+}
+
+#x {
+    width: 56px;
+    position: relative;
+    top: 4px;
+}
+
+@keyframes navbar {
+    from{
+        transform: translatey(-100%);
+    }
+
+    to{
+        transform: translatey(0%);
+    }
+}
+
+/* Container Left */
 
 .container {
     display: flex;
@@ -83,6 +118,7 @@ nav {
     gap: 20px;
     justify-content: center;
     font-weight: 500;
+    animation: container-left 0.5s;
 }
 
 .cc1 {
@@ -136,6 +172,17 @@ nav {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    transition: 0.5s;
+}
+
+.cc5 button:focus{
+    background-color: transparent;
+    color: var(--prim-color);
+    border: 2px solid var(--prim-color);
+}
+
+.cc5 button:focus svg{
+    fill: var(--prim-color);
 }
 
 .cc5 button svg{
@@ -168,6 +215,18 @@ nav {
     }
 }
 
+@keyframes container-left {
+    from{
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/* Footer */
+
 .footer{
     display: flex;
     max-width: 70vw;
@@ -176,6 +235,7 @@ nav {
     font-family: var(--urbanist);
     font-size: 1.3em;
     font-weight: bold;
+    animation: footer 0.5s;
 }
 
 .fdetails{
@@ -186,7 +246,37 @@ nav {
 .fc{
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
+
+.fcc{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.fc p{
+    display: inline;
+}
+
+.fc svg{
+    width: 30px;
+    background-color: var(--prim-color);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+@keyframes footer {
+    from{
+        transform: translateY(100%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+/* Container Right */
 
 .container-right{
     /* right: 0; */
@@ -195,10 +285,21 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
+    animation: container-right 0.5s;
 }
 
 .container-right img{
     position: absolute;
     right: 13%;
-    border: 10px dotted var(--prim-color);
+    /* border: 10px dotted var(--prim-color); */
+}
+
+@keyframes container-right {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
 }
