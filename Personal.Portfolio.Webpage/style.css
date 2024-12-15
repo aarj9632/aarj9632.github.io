@@ -79,7 +79,7 @@ nav {
 .c1 {
     display: flex;
     flex-direction: column;
-    max-width: 35vw;
+    width: 35vw;
     gap: 20px;
     justify-content: center;
     font-weight: 500;
@@ -186,4 +186,19 @@ nav {
 .fc{
     display: flex;
     flex-direction: column;
+}
+
+.container-right{
+    /* right: 0; */
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-right img{
+    position: absolute;
+    right: 13%;
+    border: 10px dotted var(--prim-color);
 }
