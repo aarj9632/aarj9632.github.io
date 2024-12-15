@@ -118,7 +118,7 @@ nav {
     gap: 20px;
     justify-content: center;
     font-weight: 500;
-    animation: container-left 0.5s;
+    animation: container-left 1s;
 }
 
 .cc1 {
@@ -285,13 +285,12 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: container-right 0.5s;
+    animation: container-right 1s;
 }
 
 .container-right img {
     position: absolute;
     right: 13%;
-    /* border: 10px dotted var(--prim-color); */
 }
 
 .container-right svg {
@@ -301,7 +300,7 @@ nav {
     right: 3%;
     top: 6%;
     z-index: 2;
-    animation: rotation 20s infinite ease;
+    animation: rotation 20s 1s infinite ease;
 }
 
 .container-right circle {
