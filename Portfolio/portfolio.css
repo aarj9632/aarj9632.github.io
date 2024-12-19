@@ -181,6 +181,11 @@ nav {
     border: 2px solid var(--prim-color);
 }
 
+.cc5 button:active{
+    transition: all 0.2s ease;
+    transform: scale(0.9);
+}
+
 .cc5 button:focus svg {
     fill: var(--prim-color);
 }
