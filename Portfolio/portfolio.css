@@ -241,6 +241,7 @@ nav {
     font-size: 1.3em;
     font-weight: bold;
     animation: footer 0.5s;
+    padding: 10px;
 }
 
 .fdetails {
