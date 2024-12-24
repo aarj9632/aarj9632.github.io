@@ -76,6 +76,34 @@ nav {
     color: var(--prim-color);
 }
 
+/* .footer {
+    background: linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 272px 73px, 0px 60px, 953px 0px;
+    border-radius: 20px;
+    padding: 10px;
+    animation: border-dance-footer 8s infinite linear;
+} */
+
+@keyframes border-dance-social-media {
+    0% {
+      background-position: 0px 7px, 272px 70px, 0px 60px, 287px 0px;
+    }
+    100% {
+      background-position: 200px 7px, 500px 70px, 0px 200px, 287px 200px;
+    }
+  }
+
+@keyframes border-dance-footer {
+    0% {
+      background-position: 0px 0px, 272px 100%, 0px 60px, 100% 0px;
+    }
+    100% {
+      background-position: 200px 0px, 472px 100%, 0px 160px, 100% 100px;
+    }
+  }
+
 .social-media img {
     width: 50px;
     transition: 0.5s;
@@ -181,7 +209,7 @@ nav {
     border: 2px solid var(--prim-color);
 }
 
-.cc5 button:active{
+.cc5 button:active {
     transition: all 0.2s ease;
     transform: scale(0.9);
 }
@@ -327,20 +355,20 @@ nav {
         top: 6%;
     }
 
-    12.5%{
+    12.5% {
         transform: rotate(45deg);
         right: 6%;
         top: 8%;
     }
-    
 
-    25%{
+
+    25% {
         transform: rotate(90deg);
         right: 9%;
         top: 6%;
     }
 
-    37.5%{
+    37.5% {
         transform: rotate(135deg);
         right: 10%;
         top: 2%;
@@ -352,19 +380,19 @@ nav {
         top: -2%;
     }
 
-    62.5%{
+    62.5% {
         transform: rotate(135deg);
         right: 10%;
         top: 2%;
     }
 
-    75%{
+    75% {
         transform: rotate(90deg);
         right: 9%;
         top: 6%;
     }
 
-    87.5%{
+    87.5% {
         transform: rotate(45deg);
         right: 6%;
         top: 8%;
