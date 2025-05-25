@@ -130,6 +130,12 @@ nav {
     }
 }
 
+/* Profile Picture */
+    
+    .image-for-mobile img{
+        width: 0px;
+    }
+
 /* Container Left */
 
 .container {

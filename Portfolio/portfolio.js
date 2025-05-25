@@ -3,3 +3,4 @@ function contactme() {
 
     document.querySelector(".social-media").style.cssText = "background: linear-gradient(90deg, rgba(255,255,255,0.7) 50%, transparent 50%), linear-gradient(90deg, rgba(255,255,255,0.7) 50%, transparent 50%), linear-gradient(0deg, rgba(255,255,255,0.7) 50%, transparent 50%), linear-gradient(0deg, rgba(255,255,255,0.7) 50%, transparent 50%); background-repeat: repeat-x, repeat-x, repeat-y, repeat-y; background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;background-position: 0px 7px, 272px 70px, 0px 60px, 287px 0px; border-radius: 20px; padding: 10px;animation: border-dance-social-media 10s infinite linear; transition: 0.2s;";
 }
+
