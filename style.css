@@ -79,9 +79,19 @@ a:active {
     animation: 0.5s cubic-bezier(0, 1.21, 0.58, 1) slide-in;
 }
 
-.btn:hover {
+.btn1:hover {
     transition: 0.5s;
     box-shadow: 15px 15px 0 #FBC638;
+    
+}
+.btn2:hover {
+    transition: 0.5s;
+    box-shadow: 15px 15px 0 rgb(255, 0, 242);
+    
+}
+.btn3:hover {
+    transition: 0.5s;
+    box-shadow: 15px 15px 0 orange;
     
 }
 
@@ -119,10 +129,12 @@ a:active {
 }
 
 .btn2:active {
-    border: 5px solid #ae00ff;
-    color: #ae00ff;
-    background-color: white;
-    outline: 5px solid white;
+    border: 5px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+    background-color: black;
+    outline: 5px solid black;
+    scale: 0.9;
+    transition: 0.1s;
 }
 
 .btn2 .arrow2 {
@@ -143,10 +155,12 @@ a:active {
 }
 
 .btn3:active {
-    border: 5px solid darkgreen;
-    color: darkgreen;
-    background-color: white;
-    outline: 5px solid white;
+    border: 5px solid #aaff00;
+    color: #aaff00;
+    background-color: black;
+    outline: 5px solid black;
+    scale: 0.9;
+    transition: 0.1s;
 } 
 
 .btn3 .arrow3 {
@@ -178,29 +192,91 @@ path.two {
     transform: translateX(-30%);
 }
 
-.btn:hover path.three {
-    animation: color_anim 1s infinite 0.2s;
+/********** 1st button ***********/
+
+.btn1:hover path.three {
+    animation: for-btn1 1s infinite 0.2s;
 }
 
-.btn:hover path.one {
+.btn1:hover path.one {
     transform: translateX(0%);
-    animation: color_anim 1s infinite 0.6s;
+    animation: for-btn1 1s infinite 0.6s;
 }
 
-.btn:hover path.two {
+.btn1:hover path.two {
     transform: translateX(0%);
-    animation: color_anim 1s infinite 0.4s;
+    animation: for-btn1 1s infinite 0.4s;
+}
+
+/************* 2nd button *************/
+
+.btn2:hover path.three {
+    animation: for-btn2 1s infinite 0.2s;
+}
+
+.btn2:hover path.one {
+    transform: translateX(0%);
+    animation: for-btn2 1s infinite 0.6s;
+}
+
+.btn2:hover path.two {
+    transform: translateX(0%);
+    animation: for-btn2 1s infinite 0.4s;
+}
+
+/**************** 3rd button *******************/
+
+.btn3:hover path.three {
+    animation: for-btn3 1s infinite 0.2s;
+}
+
+.btn3:hover path.one {
+    transform: translateX(0%);
+    animation: for-btn3 1s infinite 0.6s;
+}
+
+.btn3:hover path.two {
+    transform: translateX(0%);
+    animation: for-btn3 1s infinite 0.4s;
 }
 
 /*************** SVG animations ***************/
 
-@keyframes color_anim {
+@keyframes for-btn1 {
     0% {
         fill: black;
     }
 
     50% {
         fill: #FBC638;
+    }
+
+    100% {
+        fill: black;
+    }
+}
+
+@keyframes for-btn2 {
+    0% {
+        fill: black;
+    }
+
+    50% {
+        fill: rgb(255, 0, 242);
+    }
+
+    100% {
+        fill: black;
+    }
+}
+
+@keyframes for-btn3 {
+    0% {
+        fill: black;
+    }
+
+    50% {
+        fill: orange;
     }
 
     100% {
