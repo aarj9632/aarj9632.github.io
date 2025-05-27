@@ -39,6 +39,21 @@ a:active {
     box-sizing: border-box;
 }
 
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    animation: 0.5s cubic-bezier(0, 1.21, 0.58, 1) slide-out;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    animation: 0.5s cubic-bezier(0, 1.21, 0.58, 1) slide-out;
+}
+
 @keyframes slide-in {
     from {
         transform: translateX(100vw);
@@ -49,9 +64,19 @@ a:active {
     }
 }
 
+@keyframes slide-out {
+    from {
+        transform: translateX(-100vw);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 /***************** Responsiveness ******************/
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:1000px) {
     .btn {
         text-align: center;
     }
