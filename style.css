@@ -36,7 +36,7 @@ a:active {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    box-sizing: border-box;
+    gap: 30px;
 }
 
 h1{
@@ -86,13 +86,7 @@ h4{
     }
 } 
 
-/************* Button **************/
-
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+/************* Buttons **************/
 
 .btn{
     display: flex;
