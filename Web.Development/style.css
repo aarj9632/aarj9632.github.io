@@ -1094,7 +1094,7 @@ input[value~="Now"]:hover {
 /* -----Background Image----- */
 
 #BackgroundImage{
-  background-image: url('/Learning.Web.Development/Items/Images/istockphoto-1201252148-170667a.jpg');
+  background-image: url('/Web.Development/Items/Images/istockphoto-1201252148-170667a.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.2; */
