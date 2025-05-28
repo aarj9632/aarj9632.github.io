@@ -17,7 +17,6 @@ img{
     width: 100vw;
     position: absolute;
     z-index: -10;
-    filter: blur(10px);
 }
 
 
